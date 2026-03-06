@@ -1,0 +1,80 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+    transition: 0.3s;
+}
+
+/* Sidebar */
+.sidebar {
+    background: linear-gradient(180deg, #1f2d3d, #111827);
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+}
+
+.sidebar h4 {
+    font-weight: 600;
+}
+
+.sidebar input {
+    border-radius: 8px;
+}
+
+.sidebar button {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Cards */
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.08);
+    border: none;
+}
+
+/* Gauge section */
+#gauge {
+    margin-top: 20px;
+}
+
+/* Performance badge */
+.badge-custom {
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+/* Positive / Negative text */
+.positive-impact {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.negative-impact {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+/* Suggestions box */
+.suggestion-box {
+    background: #fff3cd;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #ffc107;
+    margin-top: 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .sidebar {
+    background: #faf6f6;
+}

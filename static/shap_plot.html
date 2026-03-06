@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SHAP Feature Impact</title>
+
+     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-bottom: 15px;
+        }
+
+        .positive {
+            color: #28a745;
+        }
+
+        .negative {
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h3>📊 Feature Impact Overview</h3>
+    <div id="shap_bar"></div>
+</div>
+
+<script>
+    // These values will be injected dynamically later
+    var featureNames = window.featureNames || [];
+    var featureImpacts = window.featureImpacts || [];
+
+    if (featureNames.length > 0) {
+
+        var data = [{
+            type: 'bar',
+            x: featureImpacts,
+            y: featureNames,
+            orientation: 'h',
+            marker: {
+                color: featureImpacts.map(v => v > 0 ? '#28a745' : '#dc3545')
+            }
+        }];
+
+        var layout = {
+            title: 'SHAP Feature Contributions',
+            xaxis: { title: 'Impact on Productivity' },
+            margin: { l: 150 }
+        };
+
+        Plotly.newPlot('shap_bar', data, layout);
+    }
+</script>
+
+</body>
+</html>
