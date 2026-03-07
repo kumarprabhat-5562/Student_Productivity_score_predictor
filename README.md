@@ -100,8 +100,8 @@ Suggestions:
 # 👨‍💻 Author
 
 #### Kumar Prabhat
-AI & Machine Learning Student
-Passionate about building AI-powered real-world system
+> AI & Machine Learning Student
+> Passionate about building AI-powered real-world system
 
 ***
 
@@ -118,3 +118,4 @@ If you found this project helpful:
 ## You can connect me on:
 
 Linkedin:- https://www.linkedin.com/in/kumar-prabhat-067276336/
+
