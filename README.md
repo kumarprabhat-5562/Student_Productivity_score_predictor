@@ -43,7 +43,7 @@ Productivity Prediction Dashboard
 
 # Architecture diagram
 
-<img src="images/image.png" width="900">
+<img src="images/arch_diagram.png" width="900">
 
 ***
 
@@ -117,5 +117,6 @@ If you found this project helpful:
 ## You can connect me on:
 
 Linkedin:- https://www.linkedin.com/in/kumar-prabhat-067276336/
+
 
 
