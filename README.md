@@ -8,6 +8,15 @@ The system also provides Explainable AI insights (SHAP) to show why the model ma
 
 # 🚀 Live Features
 
+## 🚀 Features
+
+- Machine Learning model for productivity prediction
+- Interactive web dashboard
+- SHAP explainability visualization
+- FastAPI backend API
+- Docker container for easy deployment
+- Plotly interactive charts
+- 
 ## 📊 Productivity Prediction
 
 Predicts a Productivity Score (0–100) using a trained ML model.
@@ -97,6 +106,18 @@ Suggestions:
 
 ***
 
+# 🐳 Run Using Docker
+
+- Pull the image from Docker Hub:
+docker pull prabhat8251/student-productivity-app
+
+- Run the container:
+docker run -p 8000:8000 prabhat8251/student-productivity-app
+
+- Open in browser:
+http://localhost:8000
+
+
 # 👨‍💻 Author
 
 #### Kumar Prabhat
@@ -115,10 +136,14 @@ If you found this project helpful:
 ***
 
 #### Dataset link:- https://www.kaggle.com/datasets/sehaj1104/student-productivity-and-digital-distraction-dataset
+#### docker hub link: https://hub.docker.com/r/prabhat8251/student-productivity-app
+
+***
 
 ## You can connect me on:
 
 Linkedin:- https://www.linkedin.com/in/kumar-prabhat-067276336/
+
 
 
 
